@@ -1,6 +1,6 @@
 # fre-sys
 
-Rust bindings for the AIR SDK C API (`FlashRuntimeExtensions.h`), used to build Flash Runtime Extensions (FRE).
+Rust bindings for the AIR Native Extension (ANE) C API (`FlashRuntimeExtensions.h`).
 
 This crate requires the AIR SDK.
 
@@ -26,7 +26,7 @@ This crate provides low-level bindings over the AIR runtime:
 
 - Underlying objects may be modified externally by the runtime.
 - No guarantee of exclusive access.
-- Correct usage of the AIR C API is required.
+- Correct usage of the ANE C API is required.
 
 Users must ensure correct lifetimes and ownership assumptions.
 

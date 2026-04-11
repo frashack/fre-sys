@@ -4,7 +4,7 @@ version = "0.1.1"
 edition = "2024"
 
 authors = ["Frashack <reeceyao@qq.com>"]
-description = "Rust bindings for the Flash Runtime Extension (FRE) C API in AIR."
+description = "Rust bindings for the AIR Native Extension (ANE) C API (`FlashRuntimeExtensions.h`)."
 links = "FlashRuntimeExtensions"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
@@ -12,6 +12,7 @@ readme = "README.md"
 categories = ["external-ffi-bindings"]
 keywords = ["fre", "ane", "air", "flash", "ffi"]
 
+homepage = "https://crates.io/crates/fre-sys"
 documentation = "https://docs.rs/fre-sys"
 repository = "https://github.com/frashack/fre-sys"
 
