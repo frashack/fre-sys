@@ -1,4 +1,4 @@
-# fre-sys
+# [`fre-sys`](https://crates.io/crates/fre-sys)
 
 Rust bindings for the AIR Native Extension (ANE) C API (`FlashRuntimeExtensions.h`).
 
@@ -10,21 +10,21 @@ You must obtain the AIR SDK from the official distributor (currently Harman) and
 
 This project does not distribute any proprietary SDK files.
 
-Most users should use `fre-rs`, which provides a safer and more ergonomic abstraction over this crate.
+Most users should use [`fre-rs`](https://crates.io/crates/fre-rs), which provides a safer and more ergonomic abstraction over this crate.
 
 ## References
 
-- https://airsdk.harman.com/
-- https://airsdk.dev/docs
-- https://airsdk.dev/reference/actionscript/3.0/
-- https://help.adobe.com/en_US/air/extensions/index.html
-- https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html
+- [Adobe AIR SDK from HARMAN](https://airsdk.harman.com)
+- [AIR | AIR SDK](https://airsdk.dev/docs)
+- [ActionScript 3.0 Language Reference](https://airsdk.dev/reference/actionscript/3.0)
+- [Adobe Flash Platform * Developing Native Extensions for AdobeAIR](https://help.adobe.com/en_US/air/extensions/index.html)
+- [Adobe ActionScript® 3 (AS3) API Reference](https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html)
 
 ## Safety
 
-This crate provides low-level bindings over the AIR runtime:
+This crate provides low-level bindings over the ANE C API:
 
-- Underlying objects may be modified externally by the runtime.
+- Underlying objects may be modified externally by the AIR runtime.
 - No guarantee of exclusive access.
 - Correct usage of the ANE C API is required.
 
