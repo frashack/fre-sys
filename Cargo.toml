@@ -1,0 +1,27 @@
+[package]
+name = "fre-sys"
+version = "0.1.0"
+edition = "2024"
+
+authors = ["Frashack <reeceyao@qq.com>"]
+description = "Rust bindings for the Flash Runtime Extension (FRE) C API in AIR."
+links = "FlashRuntimeExtensions"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+categories = ["external-ffi-bindings"]
+keywords = ["fre", "ane", "air", "flash", "ffi"]
+
+documentation = "https://docs.rs/fre-sys"
+repository = "https://github.com/frashack/fre-sys"
+
+include = [
+    "src/**",
+    "build.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+]
+
+[dependencies]
