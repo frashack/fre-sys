@@ -7,6 +7,7 @@ mod var_names {
 }
 
 fn main() {
+    if env::var("DOCS_RS").is_ok() {return;}
     let air_sdk = PathBuf::from(
         env::var(var_names::AIR_SDK)
             .expect(&format!("{} not set", var_names::AIR_SDK))
