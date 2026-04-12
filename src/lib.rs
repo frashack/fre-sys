@@ -1,7 +1,7 @@
 //!
 //! # fre-sys
 //! 
-//! Rust bindings for the AIR SDK C API (`FlashRuntimeExtensions.h`), used to build Flash Runtime Extensions (FRE).
+//! Rust bindings for the AIR Native Extension (ANE) C API (`FlashRuntimeExtensions.h`).
 //! 
 //! ## Example
 //!
