@@ -2,7 +2,7 @@
 
 Rust bindings for the AIR Native Extension (ANE) C API (`FlashRuntimeExtensions.h`).
 
-This crate requires the AIR SDK.
+This crate requires the AIR SDK. You must set the `AIR_HOME` environment variable to the root directory of the AIR SDK.
 
 The AIR SDK is currently maintained by Harman (Samsung), originally developed by Adobe.
 

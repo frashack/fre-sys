@@ -25,4 +25,11 @@ include = [
     "LICENSE-MIT",
 ]
 
+[package.metadata.docs.rs]
+targets = [
+    "x86_64-pc-windows-msvc",
+    "i686-pc-windows-msvc",
+]
+default-target = "x86_64-pc-windows-msvc"
+
 [dependencies]
