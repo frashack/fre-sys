@@ -67,7 +67,7 @@ static FUNC: Function = Function(FRENamedFunction {
     function: hello,
 });
 unsafe extern "C" fn hello(_: FREContext, _: FREData, _: u32, _: *const FREObject) -> FREObject {
-    let bytes = "Hello! Flash Runtime".as_bytes();
+    let bytes = "Hello! Flash Runtime.".as_bytes();
     let mut str_obj = std::ptr::null_mut();
     _ = unsafe {FRENewObjectFromUTF8(bytes.len() as u32, bytes.as_ptr(), &mut str_obj)};
     str_obj
