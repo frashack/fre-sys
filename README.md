@@ -37,13 +37,13 @@ MIT OR Apache-2.0
 ## Example
 
 ```rust
-use fre_sys::prelude::*;
+use fre_sys::*;
 #[allow(unsafe_op_in_unsafe_fn, non_snake_case, unused_variables)]
 #[unsafe(no_mangle)]
 pub unsafe extern "C" fn Initializer (
     ext_data_to_set: *mut FREData,
     ctx_initializer_to_set: *mut FREContextInitializer,
-    ctx_finalizer_to_set: *mut FREContextFinalizer,
+    ctx_finalizer_to_set: *mut Option<FREContextFinalizer>,
 ) {
     *ctx_initializer_to_set = ctx_initializer;
 }
