@@ -138,14 +138,14 @@ pub fn FRESetContextNativeData(ctx: FREContext, nativeData: FREData) -> FREResul
 /// - [`FREResult::FRE_WRONG_THREAD`]
 /// - [`FREResult::FRE_INVALID_ARGUMENT`] If `actionScriptData` is null.
 /// 
-pub fn FREGetContextAS3Data(ctx: FREContext, actionScriptData: *mut FREObject) -> FREResult;
+pub fn FREGetContextActionScriptData(ctx: FREContext, actionScriptData: *mut FREObject) -> FREResult;
 
 /// # Returns
 /// 
 /// - [`FREResult::FRE_OK`]
 /// - [`FREResult::FRE_WRONG_THREAD`]
 /// 
-pub fn FRESetContextAS3Data(ctx: FREContext, actionScriptData: FREObject) -> FREResult;
+pub fn FRESetContextActionScriptData(ctx: FREContext, actionScriptData: FREObject) -> FREResult;
 }
 
 
